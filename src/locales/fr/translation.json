@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>La Cérémonie a besoin d'âmes aux intentions pures. Les invocateurs prouvent leur intégrité en déverrouillant un passage grâce à l'envoi d'au moins trois transactions depuis une adresse. Chaque adresse ne peut être utilisée qu'une fois.</0><1>Choisir Ethereum ne permet pas de virer des fonds ni de conclure quelque contrat que ce soit. Cette méthode permet également de livrer un POAP après la cérémonie.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "OUVRIR <br/> LA VOIE",
       "unlockWithEthereum": "Déverrouiller avec Ethereum <2></2>",
       "unlockWithGithub": "ou déverrouiller avec Github"

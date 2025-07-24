@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>仪式需要意图单纯的灵魂。召唤者要使用至少有三笔已发送交易的地址进行解锁，以展现他们的诚实。</0><1>选择以太坊不会发送任何资金或允许任何合约。此方法还允许我们在仪式完成后传送 POAP 徽章。</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "开辟 <br/> 道路",
       "unlockWithEthereum": "使用以太坊地址解锁<2></2>",
       "unlockWithGithub": "或使用 Github 地址解锁"

@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>Seremoni, iyi niyetli kişilere ihtiyaç duyar. Çağrıcılar, gönderilmiş en az üç işleme sahip bir adresle kilidi açarak dürüstlüklerini gösterir. Her adres yalnızca bir kez kullanılabilir.</0><1>Ethereum'u seçme herhangi bir tutarda para göndermez veya herhangi bir sözleşmeye izin vermez. Bu yöntem, Seremoni sonrası bir POAP teslim etmemize de olanak sağlar.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "YOLU <br/> AÇIN",
       "unlockWithEthereum": "Ethereum ile kilidini aç <2></2>",
       "unlockWithGithub": "veya Github ile kilidini aç"

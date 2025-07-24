@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>세레모니에는 순수한 의도의 영혼이 필요합니다. 소환사는 최소 3개의 트랜잭션이 전송된 주소로 잠금을 해제하여 무결성을 표시합니다. 각 주소는 한 번만 사용될 수 있습니다.</0><1>이더리움을 선택하는 작업은 자금을 보내거나 계약을 허용하지 않습니다. 이 방법을 사용하면 세레모니 후에 POAP를 전달할 수도 있습니다.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "방법 <br/> 열기",
       "unlockWithEthereum": "이더리움으로 잠금 해제 <2></2>",
       "unlockWithGithub": "또는 Github로 잠금 해제"

@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>La Ceremonia requiere almas de intención pura. Los invocadores muestran su integridad desbloqueando con una dirección que tiene al menos tres transacciones enviadas.</0><1>Elegir Ehtereum no envía ningún fondo ni permite ningún contrato. Este método también nos permite entregar un POAP después de la Ceremonia.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "ABRIR <br/> EL CAMINO",
       "unlockWithEthereum": "Desbloquear con Ethereum <2></2>",
       "unlockWithGithub": "o desbloquear con Github"

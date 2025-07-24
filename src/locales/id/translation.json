@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>Upacara memerlukan jiwa dengan niat murni. Pemanggil menunjukkan integritas mereka dengan membuka alamat yang memiliki minimal tiga transaksi terkirim. Setiap alamat hanya dapat digunakan sekali.</0><1>Memilih Ethereum tidak mengirim dana apa pun atau mengizinkan kotak apa pun. Metode ini juga mengizinkan POAP dikirimkan setelah Upacara.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "BUKA <br/> JALANNYA",
       "unlockWithEthereum": "Buka dengan Ethereum <2></2>",
       "unlockWithGithub": "atau buka dengan Github"

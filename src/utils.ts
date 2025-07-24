@@ -25,7 +25,6 @@ export function isBgRoute(route: string): boolean {
     ROUTES.CONTRIBUTING,
     ROUTES.COMPLETE,
     ROUTES.SIGNIN,
-    ROUTES.DOUBLE_SIGN,
     ROUTES.ENTROPY_INPUT,
     ROUTES.LOBBY,
     ROUTES.LOBBY_FULL

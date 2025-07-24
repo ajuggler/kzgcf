@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>Für die Zeremonie sind Seelen reinen Willens erforderlich. Beschwörer erhalten Zugang, wenn sie ihre Integrität mithilfe einer Adresse unter Beweis stellen, die mindestens drei Transaktionen gesendet hat. Jede Adresse darf nur einmal verwendet werden.</0><1>Durch die Auswahl von Ethereum werden keine Gelder gesendet und keine Verträge zugelassen. Diese Methode erlaubt es zudem, nach der Zeremonie einen POAP zu liefern.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "ZUGANG <br/> ERHALTEN",
       "unlockWithEthereum": "Mit Ethereum Zugang erhalten<2></2>",
       "unlockWithGithub": "oder mit Github Zugang erhalten"

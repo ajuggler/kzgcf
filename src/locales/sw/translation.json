@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>Karamu inahitaji roho za nia safi. Samona huonyesha uadilifu wao kwa kufungua kwa kutumia anwani iliyo na angalau miamala mitatu iliyotumwa. Kila anwani inaweza kutumika mara moja pekee.</0><1>Kuchagua Ethereum hakutumi fedha zozote wala kuruhusu mikataba yoyote. Mbinu hii pia huruhusu POAP kutolewa baada ya Karamu.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "FUNGUA <br/> NJIA",
       "unlockWithEthereum": "Fungua ukitumia Ethereum <2></2>",
       "unlockWithGithub": "au ufungue ukitumia Github"

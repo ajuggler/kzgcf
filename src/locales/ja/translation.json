@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>このセレモニーには、清らかな意図を持つ魂のみが参加を許されます。召喚するには少なくとも3回のトランザクション送信履歴があるアドレスでロックを解除し、誠実さを示す必要があります。アドレス1つにつき、1回のみ使用できます。</0><1>資金を送信したり、コントラクトを許可することはありません。また、これにより、セレモニー後に出席証明プロトコル(POAP)が配信されます。</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "道を<br/>\n開く",
       "unlockWithEthereum": "イーサリアム<2></2>でロック解除",
       "unlockWithGithub": "またはGithubでロックを解除"
