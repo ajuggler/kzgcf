@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>A Cerimônia requer almas de intenções puras. Invocadores mostram sua integridade desbloqueando com um endereço que tenha pelo menos três transações enviadas. Cada endereço somente pode ser usado uma vez.</0><1>Escolher o Ethereum não envia fundos ou permite quaisquer contratos. Esse método também permite entregar um POAP após a Cerimônia.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "ABRIR <br/> O CAMINHO",
       "unlockWithEthereum": "Desbloquear com o Ethereum <2></2>",
       "unlockWithGithub": "ou desbloquear com o Github"

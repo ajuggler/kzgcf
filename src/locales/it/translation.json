@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>La cerimonia richiede anime dalle intenzioni pure. I convocatori mostrano la loro integrità sbloccando con un indirizzo che ha almeno tre transazioni inviate. Ogni indirizzo può essere utilizzato solo una volta.</0><1>Non si inviano fondi né si autorizza alcun contratto scegliendo Ethereum. Questo metodo ci permette anche di consegnare un POAP dopo la cerimonia.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "APRI <br/> LA VIA",
       "unlockWithEthereum": "Sblocca con Ethereum <2></2>",
       "unlockWithGithub": "o sblocca con Github"

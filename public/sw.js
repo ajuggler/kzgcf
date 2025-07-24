@@ -30,13 +30,8 @@ self.addEventListener("install", function () {
         .then(function (response) {
           const newHeaders = new Headers(response.headers);
 
-          if (url && url.includes('double_sign')) {
-            newHeaders.delete("Cross-Origin-Embedder-Policy");
-            newHeaders.set("Cross-Origin-Opener-Policy", "same-origin-allow-popups");
-          } else {
-            newHeaders.set("Cross-Origin-Embedder-Policy", "require-corp");
-            newHeaders.set("Cross-Origin-Opener-Policy", "same-origin");
-          }
+          newHeaders.set("Cross-Origin-Embedder-Policy", "require-corp");
+          newHeaders.set("Cross-Origin-Opener-Policy", "same-origin");
 
           const moddedResponse = new Response(response.body, {
             status: response.status,

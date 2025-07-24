@@ -193,7 +193,7 @@
       }
     },
     "signin": {
-      "description": "<0>In order to ensure you are a unique human, you need to sign in with an Ethereum account that has at least three sent transactions.</0><1>It does not send any funds or permit any contracts. This method also allows us to deliver a POAP after the Ceremony.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "OPEN <br/> THE WAY",
       "unlockWithEthereum": "Sign-in with Ethereum <2></2>",
       "unlockWithGithub": "or sign-in with GitHub"

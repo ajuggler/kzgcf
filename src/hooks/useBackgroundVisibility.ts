@@ -74,15 +74,6 @@ export default function useBackgroundVisibility(): Visibilities {
       pizza: 'hidden'
     }
 
-  if (location.pathname === ROUTES.DOUBLE_SIGN)
-    return {
-      bg: 'white',
-      dark: 'hidden',
-      inner: 'color',
-      outer: 'color',
-      snake: 'color',
-      pizza: 'color'
-    }
 
   if (location.pathname === ROUTES.CONTRIBUTING)
     return {

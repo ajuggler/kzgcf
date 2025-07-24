@@ -218,7 +218,7 @@
       }
     },
     "signin": {
-      "description": "<0>الحفل يتطلب أرواح نقية. يُعلن المستدعيون سلامتهم من خلال فتح عنوان يحتوي على ثلاث معاملات مرسلة على الأقل. يمكن استخدام كل عنوان مرة واحدة فقط.</0><1>اختيار إثيريوم لا يرسل أي أموال أو يسمح بأي عقود. تسمح هذه الطريقة أيضًا بتسليم POAP بعد الحفل.</1>",
+      "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
       "title": "فتح <br/> الطريق",
       "unlockWithEthereum": "فتح مع إثيريوم <2></2>",
       "unlockWithGithub": "أو فتح مع Github"

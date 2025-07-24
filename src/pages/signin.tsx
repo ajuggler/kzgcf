@@ -11,7 +11,6 @@ import {
   TextSection,
   Over
 } from '../components/Layout'
-import EthImg from '../assets/eth.svg'
 import { useAuthStore } from '../store/auth'
 import { useNavigate } from 'react-router-dom'
 import { ErrorRes, RequestLinkRes } from '../types'
@@ -27,10 +26,6 @@ const SigninPage = () => {
   const [showError, setShowError] = useState(error)
   const [isLoading, setIsLoading] = useState(false)
 
-  const onSigninSIWE = async () => {
-    setIsLoading(true)
-    navigate(ROUTES.DOUBLE_SIGN)
-  }
 
   const onSigninGithub = async () => {
     setIsLoading(true)
@@ -81,12 +76,6 @@ const SigninPage = () => {
               <LoadingSpinner></LoadingSpinner>
               :
               <>
-              <PrimaryButton onClick={onSigninSIWE} style={{ width: '300px' }} disabled={isLoading}>
-                <Trans i18nKey="signin.unlockWithEthereum">
-                  Unlock with Ethereum{' '}
-                  <ButtonIcon src={EthImg} alt="ETH icon" />
-                </Trans>
-              </PrimaryButton>
               <ButtonWithLinkOut onClick={onSigninGithub} style={{ width: '280px' }} disabled={isLoading}>
                 <Trans i18nKey="signin.unlockWithGithub">
                   or unlock with Github
@@ -103,9 +92,6 @@ const SigninPage = () => {
 }
 
 
-const ButtonIcon = styled.img`
-  margin-inline-start: 16px;
-`
 
 export const ButtonSection = styled(SingleButtonSection)`
   max-height: 100px;

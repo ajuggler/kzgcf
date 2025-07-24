@@ -218,7 +218,7 @@
         }
       },
       "signin": {
-        "description": "<0>Ceremónia vyžaduje dušu s čistým úmyslom. Kto sa chce zapojiť, musí preukázať svoju bezúhonnosť odomknutím s adresou, ktorá má aspoň tri odoslané transakcie.</0><1>Neodosiela žiadne prostriedky ani nepovoľuje žiadne zmluvy. Táto metóda tiež umožňuje doručiť POAP po Ceremónii.</1>",
+        "description": "Sign in with GitHub to participate in the Ceremony. Each account can only contribute once.",
         "title": "OTVORIŤ <br/> CESTU",
         "unlockWithEthereum": "Odomknúť pomocou Etherea <2></2>",
         "unlockWithGithub": "alebo pomocou Githubu"

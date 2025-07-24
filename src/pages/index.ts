@@ -7,7 +7,6 @@ import LobbyPage from './lobby'
 import ContributingPage from './contributing'
 import CompletePage from './complete'
 import RecordPage from './record'
-import DoubleSignPage from './doubleSign'
 import SigninRedirectPage from './signinRedirect'
 
 export {
@@ -19,7 +18,6 @@ export {
   LobbyPage,
   ContributingPage,
   CompletePage,
-  DoubleSignPage,
   RecordPage,
   SigninRedirectPage
 }
