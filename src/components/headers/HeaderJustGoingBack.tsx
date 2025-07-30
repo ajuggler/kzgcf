@@ -10,7 +10,7 @@ const HeaderJustGoingBack = () => {
   return (<>{ ENVIRONMENT === 'testnet' ?
     <Container>
       { ENVIRONMENT === 'testnet' ?
-        <Trans i18nKey="header.ceremony">TEST CEREMONY</Trans>
+        <Trans i18nKey="header.ceremony">KZG CEREMONY</Trans>
         :
         <></>
       }

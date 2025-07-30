@@ -55,7 +55,7 @@ const Header = () => {
         </SequencerStatus>
         { ENVIRONMENT === 'testnet' ?
           <CenterSection isMobile={isMobile()}>
-            <Trans i18nKey="header.ceremony">TEST CEREMONY</Trans>
+            <Trans i18nKey="header.ceremony">KZG CEREMONY</Trans>
           </CenterSection>
           :
           <></>

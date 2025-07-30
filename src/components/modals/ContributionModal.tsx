@@ -82,7 +82,7 @@ const ContributionModal = ({ signature, contribution, receipt, open, onDeselect 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [signature, contribution, receipt, open])
 
-  const powers = [12, 13, 14, 15]
+  const powers = [12, 13, 14, 18]
 
   const handleClickDownloadReceipt = () => {
     const data = JSON.stringify({

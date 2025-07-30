@@ -41,18 +41,18 @@ const ENVIRONMENT = process.env.REACT_APP_ENVIRONMENT || 'testnet'
 
 const API_ROOT = process.env.REACT_APP_API_ROOT || 'http://127.0.0.1:3000'
 const COMPUTE_DEADLINE =
-  parseInt(process.env.REACT_APP_COMPUTE_DEADLINE as string) || 180
+  parseInt(process.env.REACT_APP_COMPUTE_DEADLINE as string) || 360
 const LOBBY_CHECKIN_FREQUENCY =
   parseInt(process.env.REACT_APP_LOBBY_CHECKIN_FREQUENCY as string) || 32000
 const MIN_MOUSE_ENTROPY_SAMPLES =
   parseInt(process.env.REACT_APP_MIN_MOUSE_ENTROPY_SAMPLES as string) || 64
 const AVERAGE_CONTRIBUTION_TIME =
-  parseInt(process.env.REACT_APP_AVERAGE_CONTRIBUTION_TIME as string) || 52
+  parseInt(process.env.REACT_APP_AVERAGE_CONTRIBUTION_TIME as string) || 104
 
 const START_DATE =
-  parseInt(process.env.REACT_APP_START_DATE as string) || 1673615580
+  parseInt(process.env.REACT_APP_START_DATE as string) || 1735689600
 const END_DATE =
-  parseInt(process.env.REACT_APP_END_DATE as string) || 1678713180
+  parseInt(process.env.REACT_APP_END_DATE as string) || 1767225599
 
 const INFURA_ID = process.env.REACT_APP_INFURA_ID || 'cd82571d19ab490e828dd0f86ec3cbf0'
 const PORTIS_ID = process.env.REACT_APP_PORTIS_ID || 'd6418a0a-18ae-4dfd-a206-3398012907ec'
